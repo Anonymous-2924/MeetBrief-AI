@@ -43,13 +43,21 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    [data-testid="stViewerBadge"] {
+    [data-testid="stViewerBadge"],
+    .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_,
+    .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
         display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
 
 # =========================================================
 # STYLING
