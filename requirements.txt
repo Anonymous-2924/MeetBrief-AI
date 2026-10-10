@@ -1,0 +1,7 @@
+streamlit
+pandas
+groq
+python-dotenv
+python-docx
+reportlab
+moviepy
